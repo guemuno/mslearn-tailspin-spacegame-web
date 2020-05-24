@@ -7,9 +7,14 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+
+using TailSpin.SpaceGame.Web.Models;
+using Microsoft.Extensions.Hosting;
+using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Hosting;
 using TailSpin.SpaceGame.Web.Models;
 using Microsoft.AspNetCore.Http;
+
 
 
 namespace TailSpin.SpaceGame.Web
@@ -52,7 +57,7 @@ namespace TailSpin.SpaceGame.Web
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+           app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();
@@ -64,7 +69,6 @@ namespace TailSpin.SpaceGame.Web
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
-            });
-        }
+            });        }
     }
 }
