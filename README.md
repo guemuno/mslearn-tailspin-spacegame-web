@@ -1,3 +1,5 @@
+[![Build Status](https://guemuno.visualstudio.com/ChallengeSpace/_apis/build/status/guemuno.mslearn-tailspin-spacegame-web?branchName=master)](https://guemuno.visualstudio.com/ChallengeSpace/_build/latest?definitionId=3&branchName=master)
+
 
 # Contributing
 
