@@ -1,5 +1,5 @@
-[![Build Status](https://guemuno.visualstudio.com/ChallengeSpace/_apis/build/status/guemuno.mslearn-tailspin-spacegame-web?branchName=master)](https://guemuno.visualstudio.com/ChallengeSpace/_build/latest?definitionId=3&branchName=master)
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=guemuno_mslearn-tailspin-spacegame-web&metric=alert_status)](https://sonarcloud.io/dashboard?id=guemuno_mslearn-tailspin-spacegame-web)
 
 # Contributing
 
